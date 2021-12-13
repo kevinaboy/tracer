@@ -1,6 +1,23 @@
+const inquirer = require('inquirer');
+const fs = require('fs');
 const mysql = require('mysql2');
 require('dotenv').config();
 require("console.table");
+
+// inquirer
+//   .prompt([
+//     {
+//       type: 'input',
+//       name: 'name',
+//       message: 'What would you like to do?'
+//     },
+//     {
+//       type: 'checkbox',
+//       message: 'What is the name of your department?',
+//       name: 'departments',
+//       choices: ['Services', 'Sales', 'Engineering']
+//     }
+//   ])
 
 const connection = mysql.createConnection({
   host: "localhost",
