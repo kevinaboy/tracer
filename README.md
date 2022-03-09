@@ -16,7 +16,7 @@ Employee Tracker Application
     * `npm install mysql2`
 
   ## Usage
-  Open the index.js file. In Terminal, type `node index.js`. Pres Return.
+  Open the index.js file. In Terminal, type `node index.js`. Press Return.
 
   ## Demo
   Watch video: https://watch.screencastify.com/v/QZnMA71uDBYNj1qqlDrO
